@@ -8,7 +8,6 @@
 }
 
 body {
-    background-image: url("./image/background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;

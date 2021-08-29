@@ -1,0 +1,24 @@
+/** @format */
+
+.FooterCategory {
+    font-family: 'Archivo Narrow', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.FooterCategory--title {
+    font-weight: bold;
+	color: #707070;
+	font-size: 30px;
+}
+
+.FooterCategory--categories {
+	font-size: 24px;
+    color: #bdbdbd;
+    margin-top: 16px;
+}
+
+.FooterCategory--list{
+    margin-bottom: 10px;
+    list-style-type: none;
+}

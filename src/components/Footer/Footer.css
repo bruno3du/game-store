@@ -1,0 +1,29 @@
+.footer {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer--container {
+    background: #121212;
+    border: 3px solid red;
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    padding: 90px 190px;
+}
+
+.footer--category{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer--social ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer--socialItem{
+    list-style: none;
+}

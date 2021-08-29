@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Slider from './components/Slider'
 import FeaturedProduct from './components/FeaturedProduct'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Header />
     <Slider />
     <FeaturedProduct />
-   
+    <Footer />
     </div>
   );
 }

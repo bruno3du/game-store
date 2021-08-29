@@ -1,0 +1,23 @@
+.FooterMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.FooterMenu--logo {
+    font-size: 60px;
+}
+
+.FooterMenu--menus {
+    color: #707070;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+}
+
+.FooterMenu--menu {
+    margin-left: 50px;
+
+}
