@@ -1,0 +1,30 @@
+/** @format */
+
+.slider {
+    position: relative;
+	width: 90vw;
+	height: 480px;
+	background-color: #0C0C0C;
+    border: 5px solid #FF0000;
+    border-radius: 30px;
+}
+
+.slider--arrows{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+
+}
+.slider--arrowBack, .slider--arrowForward {
+    position: absolute;
+    height: 100px;
+}
+
+.slider--arrowBack {
+    left: 100px;
+}
+
+.slider--arrowForward {
+    right: 80px;
+}

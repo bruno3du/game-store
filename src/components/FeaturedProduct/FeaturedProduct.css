@@ -1,0 +1,10 @@
+.featured h2{
+    text-decoration: unset;
+    font-family: 'Roboto Condensed';
+    font-weight: normal;
+    font-style: normal;
+    color: #BDBDBD;
+    font-size: 80px;
+    margin-top: 78px;
+    text-align: center;
+}
