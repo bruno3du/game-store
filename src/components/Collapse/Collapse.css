@@ -1,0 +1,33 @@
+.collapse-Category {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    font-weight: 600;
+    background: #1B1B1B;
+    color: #BDBDBD;
+    padding: 10px 15px;
+    cursor: pointer
+}
+.collapse-CategoryTitle {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.collapse-CategoryList{
+    color: #BDBDBD;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 50px;
+    font-size: 25px;
+    overflow: hidden;
+    transition: all ease 0.2s;
+}
+
+.collapse-CategoryItem {
+    list-style: none;
+    margin-bottom: 12px;
+}

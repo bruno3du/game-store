@@ -26,4 +26,11 @@
 
 .footer--socialItem{
     list-style: none;
+    margin-right: 30px;
+}
+
+.footer--rights {
+    font-size: 25px;
+    color: #707070;
+    margin-left: -100px
 }

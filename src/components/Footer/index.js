@@ -21,17 +21,18 @@ export default function Footer() {
 				</div>
 				<div className='footer--social'>
 					<ul>
-						<li id='footer--facebook' className='footer--socialItem'>
-							<FacebookIcon style={{fontSize: "50px"}} />
+						<li className='footer--socialItem'>
+							<FacebookIcon style={{ fontSize: '50px', color: '#3B5998' }} />
 						</li>
 						<li className='footer--socialItem'>
-							<InstagramIcon style={{fontSize: "50px"}} />
+							<InstagramIcon style={{ fontSize: '50px' }} />
 						</li>
-                        <li className='footer--socialItem'>
-                            <YouTubeIcon style={{fontSize: "50px"}} />
-                        </li>
+						<li className='footer--socialItem'>
+							<YouTubeIcon style={{ fontSize: '50px', color: '#A00707' }} />
+						</li>
 					</ul>
 				</div>
+				<div className="footer--rights">Todos os direitos são reservados</div>
 			</div>
 		</div>
 	);

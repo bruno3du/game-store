@@ -8,11 +8,6 @@
 }
 
 body {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     background-color: #121212;
     color: white;
     padding: 0 5%

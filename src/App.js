@@ -1,20 +1,13 @@
-import './App.css';
-import Header from './components/Header';
-import Slider from './components/Slider'
-import FeaturedProduct from './components/FeaturedProduct'
-import Footer from './components/Footer';
+/** @format */
 
+import HomePage from './pages/HomePage';
+// import Search from './pages/Search'
 
 function App() {
-  return (
-   
-    <div>
-    <Header />
-    <Slider />
-    <FeaturedProduct />
-    <Footer />
-    </div>
-  );
+	return (
+		<HomePage />
+		// <Search />
+	);
 }
 
 export default App;

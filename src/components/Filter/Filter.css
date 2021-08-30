@@ -1,0 +1,18 @@
+.filter {
+    font-family: 'Archivo Narrow', sans-serif;
+    width: 536px;
+    height: 100vh;
+    background: #0C0C0C;
+    border-radius: 10px;
+}
+
+.filter--title {
+    color: #E1E1E1;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.filter--searchBy{
+    margin-top: 21px;
+}

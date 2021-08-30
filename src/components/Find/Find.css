@@ -1,0 +1,11 @@
+.find {
+    margin-left: 50px;
+}
+
+
+.find--body{
+    border-radius: 10px;
+    background: #0C0C0C;
+    width: 1085px;
+    height: 100vh;
+}
