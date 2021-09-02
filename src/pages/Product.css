@@ -1,0 +1,37 @@
+.product--body {
+    background-color: #0C0C0C;
+    width: 1640px;
+    height: auto;
+    margin: 80px auto;
+    padding: 30px;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+
+.product--bodyFirst{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product--bodySecond{
+    font-family: 'Archivo Narrow', sans-serif;
+    border-radius: 10px;
+    margin: 42px auto;
+    background-color: #121212;
+    height: 500px;
+    width: 94%;
+    padding: 70px;
+}
+
+.product--bodySecond h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: #707070;
+    margin-bottom: 40px;
+}
+
+.product--bodySecond p {
+    color:#BDBDBD;
+    font-size: 18px;
+}

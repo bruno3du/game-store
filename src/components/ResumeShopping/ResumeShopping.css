@@ -1,0 +1,60 @@
+/** @format */
+
+.RS-body {
+	width: 30%;
+	background-color: #121212;
+	border-radius: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	padding: 34px 20px;
+}
+
+.RS-title {
+	font-size: 49px;
+	font-weight: bold;
+	color: #707070;
+	margin-bottom: 40px;
+}
+.RS-elements {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.RS-description,
+.RS-value {
+	font-size: 25px;
+	color: #bdbdbd;
+	font-weight: 600;
+}
+
+.RS-value {
+	color: #ff3333;
+}
+#RS-line{
+    color: #707070;
+    width: 80%;
+    height: 1px;
+    margin: auto;
+}
+
+#RS-totalField {
+	margin-top: 40px;
+}
+
+.RS-btn{
+   width: 100%;
+   padding: 27px;
+   font-size: 20px;
+   color: white;
+   border: none;
+   border-radius: 10px;
+}
+
+#RS-BuyButton{
+    background-color: #0AA724;
+    margin-bottom: 20px;
+}
+
+#RS-ContinueButton{
+    background-color: #707070;
+}

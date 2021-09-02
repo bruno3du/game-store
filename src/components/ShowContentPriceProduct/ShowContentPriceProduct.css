@@ -1,0 +1,152 @@
+/** @format */
+
+.ShowContentPriceProduct {
+    
+	font-family: 'Roboto', sans-serif;
+	width: 715px;
+}
+
+.ShowContentPriceProduct--info h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+	color: #ff3333;
+	font-size: 40px;
+}
+.ShowContentPriceProduct--rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.Show--Category,
+.ShowContentPriceProduct--rating {
+    font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+}
+
+.ShowFieldOne {
+	width: 100%;
+}
+.ShowFieldTwo {
+	display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.ShowContentPriceProduct--priceDatas {
+	display: flex;
+	width: 100%;
+	height: 467px;
+	justify-content: space-between;
+    border-radius: 10px;
+	background-color: #121212;
+	padding: 45px;
+}
+
+.Show--price {
+	font-size: 50px;
+    font-weight: 500;
+}
+
+.Show--parcelar{
+	color: #BDBDBD;
+    margin-bottom: 14px;
+}
+
+.Show--parcelar,
+.Show--OptionPriceContent,
+.Show--warning
+.Show--announcement {
+	font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.Show--OptionPrice {
+    font-weight: 500;
+	font-size: 29px;
+}
+
+.Show--OptionPriceContent {
+    margin-bottom: 29px;
+    color: #BDBDBD;
+}
+
+
+.Show--Amount{
+    display: flex;
+    
+    color: #BDBDBD;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+.Show--Amount-Input{
+    text-align: center;
+    width: 74px;
+}
+
+.Show--Input {
+    font-size: 19px;
+    font-weight: 500;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+}
+.Show-FreteContent{
+    font-weight: 500;
+    color: #BDBDBD;
+    margin-bottom: 11px;
+}
+.Show--FreteButton{
+    background-color: #A00707;
+    margin-left: 15px;
+    padding: 10px 26px;
+    color: #E2DDDD;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px black;
+}
+
+.Show--Amount,
+.Show-FreteContent,
+.Show-btn {
+	font-size: 20px;
+}
+
+.Show-btn {
+    cursor: pointer;
+    border: none;
+	color: #ffffff;
+	width: 224px;
+	padding: 15px;
+	border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+
+}
+.Show--Amount-Arrow{
+    display: flex;
+    align-items: center;
+}
+
+.Show--buy {
+	background-color: #18ac08;
+}
+
+.Show--AddCard {
+    margin: 15px 0;
+	background-color: #a00707;
+}
+
+.Show--AddCard:active{
+    box-shadow: 2px 2px 5px #121212;
+}
+
+.Show--warning {
+	color: #f5d141;
+	text-align: center;
+}
+
+.Show--announcement{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+}

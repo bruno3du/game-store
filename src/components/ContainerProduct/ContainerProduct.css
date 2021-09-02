@@ -1,0 +1,79 @@
+/** @format */
+
+.CP--container {
+    font-family: 'Archivo Narrow', sans-serif;
+	width: 90%;
+	border-radius: 20px;
+	height: 285px;
+	background-color: #121212;
+	display: flex;
+	padding: 45px 89px;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.CP--TitleAndCat{
+    margin-bottom: 50px;
+}
+
+.CP--container img {
+	width: 130px;
+}
+
+.CP--title {
+	font-size: 40px;
+    font-weight: bold;
+	color: #fc2828;
+}
+
+.CP--category {
+	font-size: 20px;
+	color: #bdbdbd;
+}
+
+.CP--QuantTitle {
+    text-align: center;
+	color: #bdbdbd;
+	font-size: 25px;
+    font-weight: 600;
+}
+
+.CP--QuantField {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.CP--QuantNumberAndArrows {
+	display: flex;
+    align-items: center;
+	flex-direction: row;
+	text-align: center;
+    width: 100px;
+}
+
+.CP--QuantNumber input {
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	/* padding: 45px; */
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+.CP--QuantRemove{
+    margin-top: 5px;
+    color:#FF3333;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.CP--Price, .CP--Boleto {
+    font-weight: bold;
+    color: #BDBDBD;
+    font-size: 26px;
+}
+

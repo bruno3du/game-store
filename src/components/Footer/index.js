@@ -7,8 +7,23 @@ import FooterCategory from '../FooterCategory';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import { useMediaQuery, useTheme } from '@material-ui/core';
 
 export default function Footer() {
+	const theme = useTheme();
+	const breaksm = useMediaQuery(theme.breakpoints.down('sm'));
+	const breakmd = useMediaQuery(theme.breakpoints.down('md'));
+	let size = '50px';
+
+	function breakpoint() {
+		if (breakmd) {
+			size = '30px';
+		} else if (breaksm) {
+			size = '20px';
+		}
+	}
+
+	breakpoint();
 	return (
 		<div className='footer'>
 			<FooterMenu />
@@ -22,17 +37,17 @@ export default function Footer() {
 				<div className='footer--social'>
 					<ul>
 						<li className='footer--socialItem'>
-							<FacebookIcon style={{ fontSize: '50px', color: '#3B5998' }} />
+							<FacebookIcon style={{ fontSize: size, color: '#3B5998' }} />
 						</li>
 						<li className='footer--socialItem'>
-							<InstagramIcon style={{ fontSize: '50px' }} />
+							<InstagramIcon style={{ fontSize: size }} />
 						</li>
 						<li className='footer--socialItem'>
-							<YouTubeIcon style={{ fontSize: '50px', color: '#A00707' }} />
+							<YouTubeIcon style={{ fontSize: size, color: '#A00707' }} />
 						</li>
 					</ul>
 				</div>
-				<div className="footer--rights">Todos os direitos são reservados</div>
+				<div className='footer--rights'>Todos os direitos são reservados</div>
 			</div>
 		</div>
 	);

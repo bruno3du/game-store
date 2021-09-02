@@ -1,24 +1,55 @@
 /** @format */
 
 .FooterCategory {
-    font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
 	display: flex;
 	flex-direction: column;
 }
 
 .FooterCategory--title {
-    font-weight: bold;
+	font-weight: bold;
 	color: #707070;
 	font-size: 30px;
 }
 
 .FooterCategory--categories {
 	font-size: 24px;
-    color: #bdbdbd;
-    margin-top: 16px;
+	color: #bdbdbd;
+	margin-top: 16px;
 }
 
-.FooterCategory--list{
-    margin-bottom: 10px;
-    list-style-type: none;
+.FooterCategory--list {
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+@media (max-width: 1400px) {
+	.FooterCategory--title {
+		font-size: 24px;
+	}
+
+	.FooterCategory--categories {
+		font-size: 18px;
+
+		margin-top: 16px;
+	}
+
+	.FooterCategory--list {
+		margin-bottom: 8px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.FooterCategory--title {
+		font-size: 20px;
+	}
+
+	.FooterCategory--categories {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+	.FooterCategory--list {
+		margin-bottom: 7px;
+	}
 }

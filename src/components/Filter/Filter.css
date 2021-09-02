@@ -1,18 +1,65 @@
+/** @format */
+
 .filter {
-    font-family: 'Archivo Narrow', sans-serif;
-    width: 536px;
-    height: 100vh;
-    background: #0C0C0C;
-    border-radius: 10px;
+	font-family: 'Archivo Narrow', sans-serif;
+	width: 30vw;
+	height: 100vh;
+	background: #0c0c0c;
+	border-radius: 10px;
 }
 
 .filter--title {
-    color: #E1E1E1;
-    font-weight: bold;
-    font-size: 40px;
-    padding-left: 30px;
-    padding-top: 40px;
+	color: #e1e1e1;
+	font-weight: bold;
+	font-size: 40px;
+	padding-left: 30px;
+	padding-top: 40px;
 }
-.filter--searchBy{
-    margin-top: 21px;
+.filter--searchBy {
+	margin-top: 21px;
+}
+
+@media (max-width: 1400px) {
+	.filter {
+		border-radius: 9px;
+	}
+
+	.filter--title {
+		font-size: 35px;
+		padding-left: 25px;
+		padding-top: 30px;
+	}
+	.filter--searchBy {
+		margin-top: 21px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.filter {
+		border-radius: 8px;
+	}
+
+	.filter--title {
+		font-size: 30px;
+		padding-left: 25px;
+		padding-top: 30px;
+	}
+	.filter--searchBy {
+		margin-top: 21px;
+	}
+}
+
+@media (max-width: 960px) {
+	.filter {
+		border-radius: 7px;
+	}
+
+	.filter--title {
+		font-size: 24px;
+		padding-left: 18px;
+		padding-top: 30px;
+	}
+	.filter--searchBy {
+		margin-top: 15px;
+	}
 }

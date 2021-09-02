@@ -1,36 +1,55 @@
+/** @format */
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import Cart from '../../image/cart-icon.svg';
-import Search from '../../image/search.svg'
+import Search from '../../image/search.svg';
+import AuthButton from '../AuthBottom/Index';
+
 
 const menus = [
 	{
+		id: 'home',
 		title: 'Início',
-		link: 'http://localhost:3000',
+		link: '/',
 	},
 	{
+		id: 'catConsole',
 		title: 'Console',
-		link: 'http://localhost:3000',
+		link: '/search',
 	},
 	{
+		id: 'catComputer',
 		title: 'Computador',
-		link: 'http://localhost:3000',
+		link: '/search',
 	},
 	{
+		id: 'catAces',
 		title: 'Acessórios',
-		link: 'http://localhost:3000',
+		link: '/search',
 	},
 	{
+		id: 'catRating',
 		title: 'Popular',
-		link: 'http://localhost:3000',
+		link: '/search',
 	},
 ];
 
 export default function Header() {
+	
+
+
 	return (
 		<header>
+			<div className='header-login'>
+				<AuthButton />
+			</div>
+
 			<div className='header--top'>
-				<div className='logo'>Logo</div>
+				<div className='logo'>
+					<Link to='/'>Logo</Link>
+				</div>
 				<div className='header--features'>
 					<input
 						className='header--input'
@@ -38,23 +57,27 @@ export default function Header() {
 						name='seach'
 						placeholder='Pesquisa'></input>
 					<button className='header--inputButton'>
-						<img alt="search" src={Search}/>
+						<img alt='search' src={Search} />
 					</button>
-                    <img alt="cart" className="header--cart" src={Cart} />
+					<Link to='/carrinho'>
+						<img alt='cart' className='header--cart' src={Cart} />
+					</Link>
 				</div>
 			</div>
 			<nav>
 				<ul className='menus'>
 					{menus.map((menu) => {
 						return (
-							<a href={menu.link}>
-								<li className='menu'>{menu.title}</li>
-							</a>
+							<Link to={menu.link}>
+								<li id={menu.id} key={menu.id} className='menu'>
+									{menu.title}
+								</li>
+							</Link>
 						);
 					})}
-					<a href='http://localhost:3000'>
+					<Link to='/search'>
 						<li className='menu menu1'>Lançamento</li>
-					</a>
+					</Link>
 				</ul>
 			</nav>
 		</header>

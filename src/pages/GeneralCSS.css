@@ -1,15 +1,19 @@
+/** @format */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
+.background{
+    background: linear-gradient( to top, #121212 30%, transparent 70%);
+    background-size:auto;
+}
 body {
-    background-color: #121212;
-    color: white;
-    padding: 0 5%
+    background-image: url(../image/background.jpg);
+	color: white;
+	padding: 0 5%;
 }
-

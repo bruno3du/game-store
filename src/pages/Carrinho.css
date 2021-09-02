@@ -1,0 +1,46 @@
+/** @format */
+
+.Cart-body {
+    display: flex;
+    justify-content: center;
+	width: 90vw;
+	height: auto;
+    background-color: #0C0C0C;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Cart-products{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100%;
+    margin-top: 68px;
+}
+
+.Cart-DatasAndResume{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.Cart-DeleteAll{
+    margin-right: -60vw;
+    margin-bottom: -15px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    background-color: #A00707;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 30px;
+}
+
+.Cart-DeleteText{
+    margin-left: 10px;
+}

@@ -6,8 +6,17 @@ header {
 	margin: 30px;
 }
 
+.header-login {
+	display: flex;
+	align-items: center;
+	color: white;
+	justify-content: flex-end;
+	font-size: 20px;
+	font-weight: 600;
+}
 .logo {
 	font-size: 60px;
+	color: white;
 }
 .header--top {
 	display: flex;
@@ -16,16 +25,16 @@ header {
 	margin-bottom: 40px;
 }
 
-.header--features{
-    display: flex;
-    align-items: center;
+.header--features {
+	display: flex;
+	align-items: center;
 }
 
 .header--input {
 	color: white;
 	width: 400px;
 	height: 50px;
-    padding-left: 10px ;
+	padding-left: 10px;
 	border-radius: 10px;
 	border: 2px solid #707070;
 	background: transparent;
@@ -34,22 +43,23 @@ header {
 }
 
 .header--inputButton {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	padding: 15px;
+	border: none;
 	border-radius: 10px;
 	height: 50px;
 	background: chartreuse;
 }
 .header--inputButton img {
-    width: 30px;
+	width: 30px;
 }
 
 .header--cart {
-    margin-left: 20px;
+	margin-left: 20px;
 	max-width: 60px;
-    fill: red;
 }
 
 .menus {
@@ -73,4 +83,142 @@ a {
 .menu1 {
 	background-color: #e1e1e1;
 	color: #707070;
+}
+
+@media (max-width: 1400px) {
+	.logo {
+		font-size: 50px;
+	}
+	.header--input {
+		font-size: 20px;
+		width: 300px;
+		height: 35px;
+	}
+
+	.header--inputButton {
+		height: 40px;
+		width: 50px;
+	}
+
+	.header--inputButton img {
+		width: 25px;
+	}
+
+	.header--cart {
+		width: 50px;
+		margin-left: 20px;
+		max-width: 50px;
+	}
+	.menu {
+		font-size: 20px;
+		padding: 8px 40px;
+		margin: 5px;
+		border-radius: 10px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.logo {
+		font-size: 40px;
+	}
+	.header--input {
+		font-size: 16px;
+		width: 250px;
+		height: 30px;
+	}
+
+	.header--inputButton {
+		height: 30px;
+		width: 40px;
+	}
+
+	.header--inputButton img {
+		width: 22px;
+	}
+
+	.header--cart {
+		margin-left: 20px;
+		max-width: 40px;
+		width: 40px;
+	}
+	.menu {
+		font-size: 16px;
+		padding: 7px 38px;
+		margin: 3px;
+		border-radius: 8px;
+	}
+}
+
+@media (max-width: 960px) {
+	.header--top {
+		margin-bottom: 25px;
+	}
+	.logo {
+		font-size: 35px;
+	}
+	.header--input {
+		font-size: 12px;
+		border-radius: 5px;
+		width: 200px;
+		height: 25px;
+	}
+
+	.header--inputButton {
+		border-radius: 5px;
+		height: 25px;
+		width: 25px;
+	}
+
+	.header--inputButton img {
+		width: 18px;
+	}
+
+	.header--cart {
+		margin-left: 18px;
+		max-width: 30px;
+		width: 40px;
+	}
+	.menu {
+		font-size: 14px;
+		padding: 7px 30px;
+		margin: 3px;
+		border-radius: 7px;
+	}
+}
+
+@media (max-width: 720px) {
+	.header--top {
+		margin-bottom: 20px;
+	}
+	.logo {
+		font-size: 35px;
+	}
+	.header--input {
+		font-size: 12px;
+		border-radius: 5px;
+		width: 200px;
+		height: 25px;
+	}
+
+	.header--inputButton {
+		border-radius: 5px;
+		height: 25px;
+		width: 25px;
+	}
+
+	.header--inputButton img {
+		width: 18px;
+	}
+
+	.header--cart {
+		margin-left: 18px;
+		max-width: 30px;
+		width: 40px;
+	}
+	.menu {
+		font-size: 14px;
+		padding: 7px 30px;
+		margin: 3px;
+		border-radius: 7px;
+	}
 }

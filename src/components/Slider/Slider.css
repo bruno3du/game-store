@@ -28,3 +28,64 @@
 .slider--arrowForward {
     right: 80px;
 }
+
+@media (max-width: 1400px) {
+    .slider {
+        width: 90vw;
+        height: 420px;
+        border: 5px solid #FF0000;
+        border-radius: 30px;
+    }
+    
+    .slider--arrowBack, .slider--arrowForward {
+        height: 80px;
+    }
+    
+    .slider--arrowBack {
+        left: 80px;
+    }
+    
+    .slider--arrowForward {
+        right: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .slider {
+        height: 350px;
+        border: 5px solid #FF0000;
+        border-radius: 30px;
+    }
+    
+    .slider--arrowBack, .slider--arrowForward {
+        height: 70px;
+    }
+    
+    .slider--arrowBack {
+        left: 70px;
+    }
+    
+    .slider--arrowForward {
+        right: 70px;
+    }
+}
+
+@media (max-width: 960px) {
+    .slider {
+        height: 300px;
+        border: 5px solid #FF0000;
+        border-radius: 30px;
+    }
+    
+    .slider--arrowBack, .slider--arrowForward {
+        height: 70px;
+    }
+    
+    .slider--arrowBack {
+        left: 70px;
+    }
+    
+    .slider--arrowForward {
+        right: 70px;
+    }
+}
